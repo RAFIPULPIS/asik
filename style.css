@@ -67,3 +67,26 @@ button:hover {
         transform: translateY(0); /* Original position */
     }
 }
+
+.navigation {
+    margin-top: 20px;
+    padding: 10px; /* Padding around the navigation area */
+    border-top: 2px solid #ff6b6b; /* Top border */
+    border-bottom: 2px solid #ff6b6b; /* Bottom border */
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #ff6b6b; /* Button color */
+    color: white;
+    text-decoration: none; /* Remove underline */
+    border-radius: 25px; /* Rounded button */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    margin-top: 10px; /* Space above button */
+}
+
+.nav-button:hover {
+    background-color: #ff3b3b; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button */
+}
